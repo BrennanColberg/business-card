@@ -1,0 +1,17 @@
+body {
+	margin: 0px;
+}
+
+section {
+	width: 8.5in;
+	height: 11in;
+	border: 1px solid black;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+iframe {
+	margin: 0px;
+}
