@@ -23,13 +23,19 @@ h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 12pt;
 }
 
 td {
-	padding: 1mm;
+	padding: 1mm 1.25mm;
 	border: 1px dashed gray;
 }
 
 td.icon {
 	text-align: right;
+	font-weight: bold;
+}
+
+a {
+	color: blue;
 }
