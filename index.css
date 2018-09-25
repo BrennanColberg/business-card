@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+#front, #back {
+	height: 2in;
+	width: 3.5in;
+	box-sizing: border-box;
+	border: 1px solid black;
+	padding: 0.25in;
+	margin: 0px;
+}
+
+#front {
+	text-align: center;
+}
+
+h1 {
+	font-family: "Space Mono", monospace;
+	font-size: 35pt;
+	margin: 0px;
+}
+
+#back {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+td {
+	padding: 1mm;
+	border: 1px dashed gray;
+}
+
+td.icon {
+	text-align: right;
+}
